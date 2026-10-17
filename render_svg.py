@@ -1,3 +1,5 @@
+"""Gera um SVG único com o tabuleiro completo do Connect 4."""
+
 from connect4 import ROWS, COLS, EMPTY, RED, YELLOW
 
 CELL = 60
@@ -28,7 +30,9 @@ def _piece_svg(cx, cy, radius, kind):
         f'<ellipse cx="{cx - radius * 0.3}" cy="{cy - radius * 0.35}" '
         f'rx="{radius * 0.35}" ry="{radius * 0.22}" fill="white" opacity="0.45"/>'
     )
-    def _column_labels():
+
+
+def _column_labels():
     """Retorna os números das colunas no topo do SVG."""
     parts = []
     for c in range(COLS):
