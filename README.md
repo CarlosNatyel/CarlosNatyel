@@ -2,7 +2,7 @@
 
 Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta abrir uma *Issue*.
 
-🎮 **É a vez do jogador:** 🟡 Amarelo
+🎮 **É a vez do jogador:** 🔴 Vermelho
 
 ## 🎲 Tabuleiro
 
@@ -18,6 +18,7 @@ _Clique em um link, confirme a Issue e o tabuleiro será atualizado automaticame
 
 ### 📜 Últimos movimentos
 
+- 🟡 coluna **1** (linha 6)
 - 🔴 coluna **4** (linha 6)
 
 ---
