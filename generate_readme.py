@@ -27,11 +27,15 @@ def _reset_url(repo):
 
 def generate(state, repo):
     # 1) Escreve o SVG do tabuleiro em disco
-          svg_content = render_svg(state["board"], last_move=state.get("last_move"))
+    svg_content = render_svg(state["board"], last_move=state.get("last_move"))
     with open("board.svg", "w", encoding="utf-8") as f:
         f.write(svg_content)
 
-    # 2) Cabeçalho de status + seção de jogadas
+    # 2) CACHE BUSTING — a URL muda a cada jogada
+    version = len(state["move_history"])
+    svg_url = f"board.svg?v={version}"
+
+    # 3) Cabeçalho de status + seção de jogadas
     if state["status"] == "in_progress":
         status_line = f"🎮 **É a vez do jogador:** {PLAYER_NAME[state['current_player']]}"
         cols = available_columns(state)
@@ -53,7 +57,7 @@ def generate(state, repo):
             f"### 🔄 Reiniciar\n\n[▶ Começar nova partida]({_reset_url(repo)})"
         )
 
-    # 3) Últimos movimentos
+    # 4) Últimos movimentos
     if state["move_history"]:
         recent = state["move_history"][-5:]
         hist_lines = ["### 📜 Últimos movimentos", ""]
@@ -64,7 +68,7 @@ def generate(state, repo):
     else:
         history = "_Nenhum movimento ainda — seja o primeiro a jogar!_"
 
-    # 4) README com o SVG embutido
+    # 5) README com o SVG e a URL versionada
     readme = f"""# 🔴🟡 Connect 4 — Jogo Comunitário
 
 Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta abrir uma *Issue*.
@@ -74,7 +78,7 @@ Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta ab
 ## 🎲 Tabuleiro
 
 <p align="center">
-  <img src="board.svg" alt="Tabuleiro Connect 4" width="450"/>
+  <img src="{svg_url}" alt="Tabuleiro Connect 4" width="450"/>
 </p>
 
 {moves_section}
