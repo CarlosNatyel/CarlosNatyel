@@ -31,7 +31,7 @@ def generate(state, repo):
     with open("board.svg", "w", encoding="utf-8") as f:
         f.write(svg_content)
 
-    # 2) CACHE BUSTING — a URL muda a cada jogada
+    # 2) URL muda a cada jogada
     version = len(state["move_history"])
     svg_url = f"board.svg?v={version}"
 
@@ -68,7 +68,6 @@ def generate(state, repo):
     else:
         history = "_Nenhum movimento ainda — seja o primeiro a jogar!_"
 
-    # 5) README com o SVG e a URL versionada
     readme = f"""# 🔴🟡 Connect 4 — Jogo Comunitário
 
 Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta abrir uma *Issue*.
