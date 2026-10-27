@@ -27,13 +27,9 @@ def _reset_url(repo):
 
 def generate(state, repo):
     # 1) Escreve o SVG do tabuleiro em disco
-        svg_content = render_svg(state["board"], last_move=state.get("last_move"))
+          svg_content = render_svg(state["board"], last_move=state.get("last_move"))
     with open("board.svg", "w", encoding="utf-8") as f:
         f.write(svg_content)
-
-    # URL muda a cada jogada
-    version = len(state["move_history"])
-    svg_url = f"board.svg?v={version}"
 
     # 2) Cabeçalho de status + seção de jogadas
     if state["status"] == "in_progress":
