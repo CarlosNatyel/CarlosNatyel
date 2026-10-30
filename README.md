@@ -2,27 +2,25 @@
 
 Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta abrir uma *Issue*.
 
-🎮 **É a vez do jogador:** 🔴 Vermelho
+🏆 **Vitória do jogador 🔴!**
 
 ## 🎲 Tabuleiro
 
 <p align="center">
-  <img src="board.svg?v=10" alt="Tabuleiro Connect 4" width="450"/>
+  <img src="board.svg?v=11" alt="Tabuleiro Connect 4" width="450"/>
 </p>
 
-### 🎯 Escolha uma coluna
+### 🔄 Reiniciar
 
-[▶ Jogar na coluna 1](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Move%3A%201&body=Jogada%3A%20coluna%201) &nbsp;&nbsp; [▶ Jogar na coluna 2](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Move%3A%202&body=Jogada%3A%20coluna%202) &nbsp;&nbsp; [▶ Jogar na coluna 3](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Move%3A%203&body=Jogada%3A%20coluna%203) &nbsp;&nbsp; [▶ Jogar na coluna 4](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Move%3A%204&body=Jogada%3A%20coluna%204) &nbsp;&nbsp; [▶ Jogar na coluna 5](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Move%3A%205&body=Jogada%3A%20coluna%205) &nbsp;&nbsp; [▶ Jogar na coluna 6](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Move%3A%206&body=Jogada%3A%20coluna%206) &nbsp;&nbsp; [▶ Jogar na coluna 7](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Move%3A%207&body=Jogada%3A%20coluna%207)
-
-_Clique em um link, confirme a Issue e o tabuleiro será atualizado automaticamente._
+[▶ Começar nova partida](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Reset&body=Reiniciar%20o%20jogo)
 
 ### 📜 Últimos movimentos
 
+- 🔴 coluna **6** (linha 6)
 - 🟡 coluna **1** (linha 3)
 - 🔴 coluna **5** (linha 6)
 - 🟡 coluna **1** (linha 4)
 - 🔴 coluna **4** (linha 5)
-- 🟡 coluna **3** (linha 5)
 
 ---
 
