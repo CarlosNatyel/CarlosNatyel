@@ -19,16 +19,7 @@
       "."
     ],
     [
-      "Y",
       ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "."
-    ],
-    [
-      "Y",
       ".",
       ".",
       ".",
@@ -37,87 +28,36 @@
       "."
     ],
     [
-      "R",
       ".",
-      "Y",
-      "R",
+      ".",
+      ".",
+      ".",
       ".",
       ".",
       "."
     ],
     [
-      "Y",
-      "Y",
-      "R",
-      "R",
-      "R",
-      "R",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
       "."
     ]
   ],
   "current_player": "R",
-  "status": "finished",
-  "winner": "R",
-  "move_history": [
-    {
-      "player": "R",
-      "column": 4,
-      "row": 6
-    },
-    {
-      "player": "Y",
-      "column": 1,
-      "row": 6
-    },
-    {
-      "player": "R",
-      "column": 1,
-      "row": 5
-    },
-    {
-      "player": "Y",
-      "column": 2,
-      "row": 6
-    },
-    {
-      "player": "R",
-      "column": 3,
-      "row": 6
-    },
-    {
-      "player": "Y",
-      "column": 3,
-      "row": 5
-    },
-    {
-      "player": "R",
-      "column": 4,
-      "row": 5
-    },
-    {
-      "player": "Y",
-      "column": 1,
-      "row": 4
-    },
-    {
-      "player": "R",
-      "column": 5,
-      "row": 6
-    },
-    {
-      "player": "Y",
-      "column": 1,
-      "row": 3
-    },
-    {
-      "player": "R",
-      "column": 6,
-      "row": 6
-    }
-  ],
-  "last_move": {
-    "player": "R",
-    "column": 6,
-    "row": 6
-  }
+  "status": "in_progress",
+  "winner": null,
+  "move_history": [],
+  "last_move": null
 }
