@@ -37,30 +37,30 @@ def generate(state, repo):
 
     # 3) Cabeçalho de status + seção de jogadas
     if state["status"] == "in_progress":
-        status_line = f"🎮 **É a vez do jogador:** {PLAYER_NAME[state['current_player']]}"
+        status_line = f" **É a vez do jogador:** {PLAYER_NAME[state['current_player']]}"
         cols = available_columns(state)
         links = [f"[▶ Jogar na coluna {c + 1}]({_issue_url(repo, c)})" for c in cols]
         moves_section = (
-            "### 🎯 Escolha uma coluna\n\n"
+            "###  Escolha uma coluna\n\n"
             + "\n\n".join(links)
             + "\n\n_Clique em um link, confirme a Issue e o tabuleiro será atualizado automaticamente._"
         )
     elif state["winner"] == "draw":
         status_line = "🤝 **Empate!** O tabuleiro está cheio."
         moves_section = (
-            f"### 🔄 Reiniciar\n\n[▶ Começar nova partida]({_reset_url(repo)})"
+            f"###  Reiniciar\n\n[▶ Começar nova partida]({_reset_url(repo)})"
         )
     else:
         winner_emoji = "🔴" if state["winner"] == RED else "🟡"
         status_line = f"🏆 **Vitória do jogador {winner_emoji}!**"
         moves_section = (
-            f"### 🔄 Reiniciar\n\n[▶ Começar nova partida]({_reset_url(repo)})"
+            f"###  Reiniciar\n\n[▶ Começar nova partida]({_reset_url(repo)})"
         )
 
     # 4) Últimos movimentos
     if state["move_history"]:
         recent = state["move_history"][-5:]
-        hist_lines = ["### 📜 Últimos movimentos", ""]
+        hist_lines = ["###  Últimos movimentos", ""]
         for m in reversed(recent):
             emoji = "🔴" if m["player"] == RED else "🟡"
             hist_lines.append(f"- {emoji} coluna **{m['column']}** (linha {m['row']})")
@@ -75,7 +75,7 @@ Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta ab
 
 {status_line}
 
-## 🎲 Tabuleiro
+##  Tabuleiro
 
 <p align="center">
   <img src="{svg_url}" alt="Tabuleiro Connect 4" width="450"/>
@@ -87,21 +87,21 @@ Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta ab
 
 ---
 
-## 📖 Como jogar
+##  Como jogar
 
 1. Escolha uma coluna clicando em um dos links acima.
 2. Uma **Issue** será aberta com o movimento pré-preenchido.
 3. Clique em **Submit new issue**.
 4. Um **GitHub Action** processa a jogada, atualiza o tabuleiro e fecha a Issue automaticamente. ✨
 
-## 📏 Regras
+##  Regras
 
 - Tabuleiro de **6 linhas × 7 colunas**.
 - Os jogadores alternam entre 🔴 e 🟡.
 - Vence quem alinhar **4 peças consecutivas** na horizontal, vertical ou diagonal.
 - Se o tabuleiro encher sem vencedor, é **empate**.
 
-## ⚙️ Como funciona
+##  Como funciona
 
 Este jogo usa **GitHub Issues** como interface de entrada e **GitHub Actions** como motor. Cada Issue é interpretada por um workflow que valida a jogada, atualiza `game_state.json`, regenera o SVG do tabuleiro e o README.
 
