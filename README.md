@@ -1,16 +1,16 @@
-# 🔴🟡 Connect 4 — Jogo Comunitário
+#  Connect 4 — Jogo Comunitário
 
 Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta abrir uma *Issue*.
 
-🎮 **É a vez do jogador:** 🔴 Vermelho
+ **É a vez do jogador:** 🔴 Vermelho
 
-## 🎲 Tabuleiro
+##  Tabuleiro
 
 <p align="center">
   <img src="board.svg?v=8" alt="Tabuleiro Connect 4" width="450"/>
 </p>
 
-### 🎯 Escolha uma coluna
+###  Escolha uma coluna
 
 [▶ Jogar na coluna 2](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Move%3A%202&body=Jogada%3A%20coluna%202)
 
@@ -26,7 +26,7 @@ Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta ab
 
 _Clique em um link, confirme a Issue e o tabuleiro será atualizado automaticamente._
 
-### 📜 Últimos movimentos
+###  Últimos movimentos
 
 - 🟡 coluna **2** (linha 5)
 - 🔴 coluna **1** (linha 1)
@@ -36,14 +36,14 @@ _Clique em um link, confirme a Issue e o tabuleiro será atualizado automaticame
 
 ---
 
-## 📖 Como jogar
+##  Como jogar
 
 1. Escolha uma coluna clicando em um dos links acima.
 2. Uma **Issue** será aberta com o movimento pré-preenchido.
 3. Clique em **Submit new issue**.
-4. Um **GitHub Action** processa a jogada, atualiza o tabuleiro e fecha a Issue automaticamente. ✨
+4. Um **GitHub Action** processa a jogada, atualiza o tabuleiro e fecha a Issue automaticamente. 
 
-## 📏 Regras
+##  Regras
 
 - Tabuleiro de **6 linhas × 7 colunas**.
 - Os jogadores alternam entre 🔴 e 🟡.
