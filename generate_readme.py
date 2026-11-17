@@ -92,7 +92,7 @@ Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta ab
 1. Escolha uma coluna clicando em um dos links acima.
 2. Uma **Issue** será aberta com o movimento pré-preenchido.
 3. Clique em **Submit new issue**.
-4. Um **GitHub Action** processa a jogada, atualiza o tabuleiro e fecha a Issue automaticamente. ✨
+4. Um **GitHub Action** processa a jogada, atualiza o tabuleiro e fecha a Issue automaticamente.
 
 ##  Regras
 
