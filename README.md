@@ -2,15 +2,15 @@
 
 Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta abrir uma *Issue*.
 
-🎮 **É a vez do jogador:** 🔴 Vermelho
+ **É a vez do jogador:** 🟡 Amarelo
 
-## 🎲 Tabuleiro
+##  Tabuleiro
 
 <p align="center">
-  <img src="board.svg?v=10" alt="Tabuleiro Connect 4" width="450"/>
+  <img src="board.svg?v=11" alt="Tabuleiro Connect 4" width="450"/>
 </p>
 
-### 🎯 Escolha uma coluna
+###  Escolha uma coluna
 
 [▶ Jogar na coluna 2](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Move%3A%202&body=Jogada%3A%20coluna%202)
 
@@ -26,31 +26,31 @@ Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta ab
 
 _Clique em um link, confirme a Issue e o tabuleiro será atualizado automaticamente._
 
-### 📜 Últimos movimentos
+###  Últimos movimentos
 
+- 🔴 coluna **4** (linha 6)
 - 🟡 coluna **6** (linha 6)
 - 🔴 coluna **2** (linha 4)
 - 🟡 coluna **2** (linha 5)
 - 🔴 coluna **1** (linha 1)
-- 🟡 coluna **2** (linha 6)
 
 ---
 
-## 📖 Como jogar
+##  Como jogar
 
 1. Escolha uma coluna clicando em um dos links acima.
 2. Uma **Issue** será aberta com o movimento pré-preenchido.
 3. Clique em **Submit new issue**.
 4. Um **GitHub Action** processa a jogada, atualiza o tabuleiro e fecha a Issue automaticamente. ✨
 
-## 📏 Regras
+##  Regras
 
 - Tabuleiro de **6 linhas × 7 colunas**.
 - Os jogadores alternam entre 🔴 e 🟡.
 - Vence quem alinhar **4 peças consecutivas** na horizontal, vertical ou diagonal.
 - Se o tabuleiro encher sem vencedor, é **empate**.
 
-## ⚙️ Como funciona
+##  Como funciona
 
 Este jogo usa **GitHub Issues** como interface de entrada e **GitHub Actions** como motor. Cada Issue é interpretada por um workflow que valida a jogada, atualiza `game_state.json`, regenera o SVG do tabuleiro e o README.
 
