@@ -2,12 +2,12 @@
 
 Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta abrir uma *Issue*.
 
- **É a vez do jogador:** 🟡 Amarelo
+ **É a vez do jogador:** 🔴 Vermelho
 
 ##  Tabuleiro
 
 <p align="center">
-  <img src="board.svg?v=11" alt="Tabuleiro Connect 4" width="450"/>
+  <img src="board.svg?v=12" alt="Tabuleiro Connect 4" width="450"/>
 </p>
 
 ###  Escolha uma coluna
@@ -28,11 +28,11 @@ _Clique em um link, confirme a Issue e o tabuleiro será atualizado automaticame
 
 ###  Últimos movimentos
 
+- 🟡 coluna **3** (linha 6)
 - 🔴 coluna **4** (linha 6)
 - 🟡 coluna **6** (linha 6)
 - 🔴 coluna **2** (linha 4)
 - 🟡 coluna **2** (linha 5)
-- 🔴 coluna **1** (linha 1)
 
 ---
 
@@ -41,7 +41,7 @@ _Clique em um link, confirme a Issue e o tabuleiro será atualizado automaticame
 1. Escolha uma coluna clicando em um dos links acima.
 2. Uma **Issue** será aberta com o movimento pré-preenchido.
 3. Clique em **Submit new issue**.
-4. Um **GitHub Action** processa a jogada, atualiza o tabuleiro e fecha a Issue automaticamente. ✨
+4. Um **GitHub Action** processa a jogada, atualiza o tabuleiro e fecha a Issue automaticamente.
 
 ##  Regras
 
