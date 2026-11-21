@@ -1,16 +1,7 @@
 {
   "board": [
     [
-      "R",
       ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "."
-    ],
-    [
-      "R",
       ".",
       ".",
       ".",
@@ -19,7 +10,16 @@
       "."
     ],
     [
-      "Y",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      ".",
       ".",
       ".",
       ".",
@@ -28,8 +28,17 @@
       "."
     ],
     [
-      "R",
-      "R",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
       ".",
       ".",
       ".",
@@ -37,112 +46,18 @@
       "."
     ],
     [
-      "Y",
-      "Y",
-      "Y",
-      "Y",
+      ".",
+      ".",
+      ".",
+      ".",
       ".",
       ".",
       "."
-    ],
-    [
-      "R",
-      "Y",
-      "Y",
-      "R",
-      "R",
-      "Y",
-      "R"
     ]
   ],
-  "current_player": "Y",
-  "status": "finished",
-  "winner": "Y",
-  "move_history": [
-    {
-      "player": "R",
-      "column": 1,
-      "row": 6
-    },
-    {
-      "player": "Y",
-      "column": 1,
-      "row": 5
-    },
-    {
-      "player": "R",
-      "column": 1,
-      "row": 4
-    },
-    {
-      "player": "Y",
-      "column": 1,
-      "row": 3
-    },
-    {
-      "player": "R",
-      "column": 1,
-      "row": 2
-    },
-    {
-      "player": "Y",
-      "column": 2,
-      "row": 6
-    },
-    {
-      "player": "R",
-      "column": 1,
-      "row": 1
-    },
-    {
-      "player": "Y",
-      "column": 2,
-      "row": 5
-    },
-    {
-      "player": "R",
-      "column": 2,
-      "row": 4
-    },
-    {
-      "player": "Y",
-      "column": 6,
-      "row": 6
-    },
-    {
-      "player": "R",
-      "column": 4,
-      "row": 6
-    },
-    {
-      "player": "Y",
-      "column": 3,
-      "row": 6
-    },
-    {
-      "player": "R",
-      "column": 7,
-      "row": 6
-    },
-    {
-      "player": "Y",
-      "column": 3,
-      "row": 5
-    },
-    {
-      "player": "R",
-      "column": 5,
-      "row": 6
-    },
-    {
-      "player": "Y",
-      "column": 4,
-      "row": 5
-    }
-  ],
-  "last_move": {
-    "player": "Y",
-    "column": 4,
-    "row": 5
-  }
+  "current_player": "R",
+  "status": "in_progress",
+  "winner": null,
+  "move_history": [],
+  "last_move": null
 }
