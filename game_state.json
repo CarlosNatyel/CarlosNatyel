@@ -38,7 +38,7 @@
     ],
     [
       "Y",
-      ".",
+      "R",
       ".",
       "Y",
       ".",
@@ -55,7 +55,7 @@
       "."
     ]
   ],
-  "current_player": "R",
+  "current_player": "Y",
   "status": "in_progress",
   "winner": null,
   "move_history": [
@@ -118,11 +118,16 @@
       "player": "Y",
       "column": 1,
       "row": 1
+    },
+    {
+      "player": "R",
+      "column": 2,
+      "row": 5
     }
   ],
   "last_move": {
-    "player": "Y",
-    "column": 1,
-    "row": 1
+    "player": "R",
+    "column": 2,
+    "row": 5
   }
 }
