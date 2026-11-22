@@ -2,7 +2,7 @@
   "board": [
     [
       "R",
-      ".",
+      "Y",
       ".",
       ".",
       ".",
@@ -55,7 +55,7 @@
       "."
     ]
   ],
-  "current_player": "Y",
+  "current_player": "R",
   "status": "in_progress",
   "winner": null,
   "move_history": [
@@ -113,11 +113,16 @@
       "player": "R",
       "column": 2,
       "row": 2
+    },
+    {
+      "player": "Y",
+      "column": 2,
+      "row": 1
     }
   ],
   "last_move": {
-    "player": "R",
+    "player": "Y",
     "column": 2,
-    "row": 2
+    "row": 1
   }
 }
