@@ -2,12 +2,12 @@
 
 Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta abrir uma *Issue*.
 
- **É a vez do jogador:** 🔴 Vermelho
+ **É a vez do jogador:** 🟡 Amarelo
 
 ##  Tabuleiro
 
 <p align="center">
-  <img src="board.svg?v=18" alt="Tabuleiro Connect 4" width="450"/>
+  <img src="board.svg?v=19" alt="Tabuleiro Connect 4" width="450"/>
 </p>
 
 ###  Escolha uma coluna
@@ -26,11 +26,11 @@ _Clique em um link, confirme a Issue e o tabuleiro será atualizado automaticame
 
 ###  Últimos movimentos
 
+- 🔴 coluna **7** (linha 3)
 - 🟡 coluna **7** (linha 4)
 - 🔴 coluna **6** (linha 4)
 - 🟡 coluna **6** (linha 5)
 - 🔴 coluna **6** (linha 6)
-- 🟡 coluna **7** (linha 5)
 
 ---
 
