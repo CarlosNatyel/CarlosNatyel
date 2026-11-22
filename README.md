@@ -2,19 +2,17 @@
 
 Bem-vindo ao **Connect 4 colaborativo**! Qualquer pessoa pode jogar — basta abrir uma *Issue*.
 
- **É a vez do jogador:** 🟡 Amarelo
+ **É a vez do jogador:** 🔴 Vermelho
 
 ##  Tabuleiro
 
 <p align="center">
-  <img src="board.svg?v=39" alt="Tabuleiro Connect 4" width="450"/>
+  <img src="board.svg?v=40" alt="Tabuleiro Connect 4" width="450"/>
 </p>
 
 ###  Escolha uma coluna
 
 [▶ Jogar na coluna 5](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Move%3A%205&body=Jogada%3A%20coluna%205)
-
-[▶ Jogar na coluna 6](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Move%3A%206&body=Jogada%3A%20coluna%206)
 
 [▶ Jogar na coluna 7](https://github.com/CarlosNatyel/CarlosNatyel/issues/new?title=Move%3A%207&body=Jogada%3A%20coluna%207)
 
@@ -22,11 +20,11 @@ _Clique em um link, confirme a Issue e o tabuleiro será atualizado automaticame
 
 ###  Últimos movimentos
 
+- 🟡 coluna **6** (linha 1)
 - 🔴 coluna **3** (linha 1)
 - 🟡 coluna **4** (linha 1)
 - 🔴 coluna **1** (linha 1)
 - 🟡 coluna **2** (linha 1)
-- 🔴 coluna **7** (linha 2)
 
 ---
 
