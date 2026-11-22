@@ -7,7 +7,7 @@
       "Y",
       "R",
       "Y",
-      "."
+      "Y"
     ],
     [
       "R",
@@ -56,8 +56,8 @@
     ]
   ],
   "current_player": "Y",
-  "status": "in_progress",
-  "winner": null,
+  "status": "finished",
+  "winner": "draw",
   "move_history": [
     {
       "player": "R",
@@ -263,11 +263,16 @@
       "player": "R",
       "column": 5,
       "row": 1
+    },
+    {
+      "player": "Y",
+      "column": 7,
+      "row": 1
     }
   ],
   "last_move": {
-    "player": "R",
-    "column": 5,
+    "player": "Y",
+    "column": 7,
     "row": 1
   }
 }
